@@ -19,13 +19,37 @@
     </li>
 
     <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ route('alternatif') }}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Product</span></a>
+            <span>Alternatif</span></a>
     </li>
 
     <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ route('kriteria') }}">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Kriteria</span></a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('bobot') }}">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Bobot</span></a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('peringkat') }}">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Peringkat</span></a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('products') }}">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>products</span></a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="/profile">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Profile</span></a>
     </li>
@@ -39,12 +63,12 @@
     </div>
 
     <!-- Sidebar Message -->
-    <div class="sidebar-card d-none d-lg-flex">
+    {{-- <div class="sidebar-card d-none d-lg-flex">
         <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
         <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components,
             and more!</p>
         <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to
             Pro!</a>
-    </div>
+    </div> --}}
 
 </ul>
