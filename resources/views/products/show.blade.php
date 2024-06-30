@@ -2,7 +2,7 @@
 
 @section('title', 'Show Product')
 
-@section('content')
+@section('contents')
     <h1 class="mb-0">Detail Product</h1>
     <hr />
     <div class="row">

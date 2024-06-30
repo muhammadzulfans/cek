@@ -2,7 +2,7 @@
 
 @section('title', 'Create Product')
 
-@section('content')
+@section('contents')
     <h1 class="mb-0">Add Product</h1>
     <hr />
     <form action="{{ route('products.store') }}" method="POST" enctype="multipart/form-data">

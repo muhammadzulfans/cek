@@ -71,4 +71,9 @@ class AuthController extends Controller
     {
         return view('profile');
     }
+
+    public function profileSetting()
+    {
+        return view('profileSetting');
+    }
 }
